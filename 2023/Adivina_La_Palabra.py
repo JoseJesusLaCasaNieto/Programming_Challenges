@@ -33,6 +33,7 @@ def random_word(lst):
     return lst[random_number]
 
 def screen(objective, tries):
+    print()
     print(objective)
     print("Número de intentos restantes: ", tries)
     tries -= 1
