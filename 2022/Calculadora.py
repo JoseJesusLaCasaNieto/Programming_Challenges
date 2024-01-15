@@ -13,6 +13,8 @@
 #  *   podido resolver las operaciones.
 #  */
 
+import os
+
 def calculate_result(operations):
     result = 0
     operator = '+'
@@ -33,10 +35,10 @@ def calculate_result(operations):
 
     return result
 
-file = "Challenge21.txt"
+rute = os.path.join('2022', 'Challenge21.txt')
 
 try:
-    with open(file, 'r') as f:
+    with open(rute, 'r') as f:
         lines = f.read().splitlines()
 
     result = calculate_result(lines)
