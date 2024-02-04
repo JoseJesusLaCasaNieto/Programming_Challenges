@@ -26,7 +26,6 @@ def ohms_law(V=None, R=None, I=None):
     else:
         return "Invalid values"
 
-# Example usage:
 print(ohms_law(V=12, R=4))  # Should print 3.0
 print(ohms_law(V=12, I=3))  # Should print 4.0
 print(ohms_law(R=4, I=2))   # Should print 8.0
