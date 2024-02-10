@@ -41,7 +41,7 @@ float_var = 3.14  # float
 boolean_var = True  # boolean
 
 # Printing text to the terminal
-print(f"¡Hola, Python!")
+print("¡Hola, Python!")
 
 
 
